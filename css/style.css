@@ -60,15 +60,17 @@ a{ text-decoration: none;}
 li{ list-style: none;}
 
 button{
-    background-color: none;
-    font:inherit;
+    background: none;
+    font: inherit;
     border: none;
     cursor: pointer;
 }
 
 img, ion-icon, button, a{ display: block;}
 
-span{ display: inline-block;}
+span{ 
+    display: inline-block;
+}
 
 html{
     font-family: "Popins", sans-serif;
@@ -464,6 +466,7 @@ body::-webkit-scrollbar-thumb:hover{
     margin: auto;
     display: flex;
     justify-content: space-around;
+    -webkit-box-align: center;
     align-items: center;
     padding: 5px 0;
     box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.25);
@@ -474,7 +477,7 @@ body::-webkit-scrollbar-thumb:hover{
     position: relative;
     font-size: 26px;
     color: var(--eerie-black);
-    pad: 10px;
+    padding: 10px;
 }
 
 .mobile-bottom-navigation .count{
@@ -487,7 +490,7 @@ body::-webkit-scrollbar-thumb:hover{
     font-weight: var(--weight-500);
     line-height: 1;
     padding: 2px 4px;
-    border-radius: 50%;
+    border-radius:20px;
 }
 
 .mobile-navigation-menu{
